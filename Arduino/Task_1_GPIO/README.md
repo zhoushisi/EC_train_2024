@@ -8,6 +8,6 @@ Sync led status with another digital pin.
 ## PWM
 Breathing light.
 # Require
-Submit your codes, videos and documents. Each video must smaller than 30MB.
+Submit your codes, videos and documents. Each video must smaller than 30MB. And the documents must be the type of markdown.
 # Note
 Pin 9 is led pin.
