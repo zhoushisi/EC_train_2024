@@ -5,3 +5,9 @@ Training tasks for electronic control of 24gen members.
 # Tasks
 ## Arduino
 [Task 1 GPIO](Arduino/Task_1_GPIO/)
+# WHAT I LEARNT
+**I learnt how to use Arduino to dilight a LED**
+# WHY I TO LEARN
+**To take a basic understanding of Arduino and i have intreset in using SCM**
+# HOW I lEARN  
+**By using CSDN and communicating with classmates**
