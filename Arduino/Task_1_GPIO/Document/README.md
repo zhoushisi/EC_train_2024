@@ -1,5 +1,3 @@
-# What is arduino
-**使用广泛的开源电子开发平台**
 # WHAT I LEARNT
 **I learnt how to use Arduino to lighting a LED**
 # WHY I TO LEARN
