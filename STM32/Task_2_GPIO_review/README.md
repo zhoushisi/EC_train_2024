@@ -11,6 +11,25 @@ Stm32 IO模拟串口教程：https://blog.csdn.net/TonyIOT/article/details/82502
  - 无奇偶校验位
  - 1位停止位
  - RX：PB15
+ - 低位在前
+
+## 伪代码
+```c
+void transmit(char c){
+    set_data_low();//将数据线拉低，开始传输
+    delay();//延时
+    for(int i=0;i<8;i++){//八位
+        if(c&0x01)//从最低位开始发送一个bit
+            set_data_high();
+        else
+            set_data_low();
+        c = c>>1;//右移一位，准备传输下一个bit
+        delay();
+    }
+    set_data_high();//结束
+    delay();
+}
+```
 
 ## 任务要求：
  - **禁用**硬件串口，若使用硬件串口**不得分**
