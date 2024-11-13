@@ -8,7 +8,7 @@
     UART是通用异步收发器，物理接口形式。
     
     常见数据传输协议：
-    ![alt text](image-6.png)
+    ![alt text](image.png)
     
     UART结构体定义：
     ![alt text](image-5.png)
